@@ -1,0 +1,27 @@
+.footer {
+  margin-top: 1200px;
+  background-color: #120a8f;
+  color: #ffff00;
+  padding: 15px 15px 15px;
+  text-transform: uppercase;
+}
+
+.footer a {
+  color: #ffff00;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.redes {
+  display: flex;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.footer-contato {
+  display: flex;
+  justify-content: right;
+  margin-right: 60px;
+}
