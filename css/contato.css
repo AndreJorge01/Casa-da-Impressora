@@ -1,0 +1,59 @@
+.contato-formulario{
+  margin-top: 120px;
+  display: grid;
+  justify-content: center;
+  margin-right: 120px;
+}
+
+.fale-conosco{
+  margin: 60px 60px auto;
+  text-transform: uppercase;
+ justify-items: center;
+}
+
+.form{
+  background-color: white;
+  text-transform: uppercase;
+  padding: 100px;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 500px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.form label{
+ display: block;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  color: #120a8f;
+}
+
+.form input,
+.form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #120a8f;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.form button {
+  margin-top: 20px;
+  padding: 12px;
+  width: 100%;
+  background-color: #ffff00;
+  color: #120a8f;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+
+.form button:hover {
+  background-color: #0d066f;
+  color:#ffff00;
+}
