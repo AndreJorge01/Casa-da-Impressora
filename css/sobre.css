@@ -1,6 +1,5 @@
 .sobre {
   padding: 60px 20px;
-  background-color: #f9f9f9;
   text-align: center;
 }
 
@@ -19,6 +18,23 @@
   text-align: justify;
 }
 
-.servicos{
+.servicos {
   margin-top: 60px;
+}
+
+.mapa {
+  flex-direction: column;
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mapa img {
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.mapa h2{
+  margin-bottom:50px ;
 }
